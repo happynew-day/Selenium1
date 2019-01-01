@@ -26,6 +26,7 @@ public class loginTest extends UITest{
 	@Test(groups="loginTest")
 	public void loginByUerName() throws Exception
 	{
+		//登录入口
 		CommonLogin.login("seleniumcookies@126.com","cookies123");
 //		driver.findElement(By.cssSelector("div.HomeSidebar-signBannerActions>button:nth-child(1)")).click();
 //		ViewHomePage.viewMyProfile();
